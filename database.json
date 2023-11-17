@@ -1,0 +1,8 @@
+[
+    {
+        "link_to_image": "images\\titanic.png",
+        "options": ["1910", "1912", "1914", "1925"],
+        "correct_option": "1912",
+        "explanation_text": "The RMS Titanic sank on its maiden voyage in 1912."
+    }
+]

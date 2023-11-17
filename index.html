@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsdle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Newsdle</h1>
+    </header>
+    <div class="main-content">
+
+        <div id="instructions-overlay" class="overlay hidden">
+            <div class="overlay-content instructions-content">
+                <span id="close-instructions" class="close-button">&times;</span>
+                <h2>Welcome to Newsdle!</h2>
+                <p>Guess the year of the historical event in the newspaper heading.</p>
+                <ul>
+                    <li>You have two attempts to guess the correct year.</li>
+                    <li>A new newspaper heading is available each day.</li>
+                    <li>Select your guess and then click Submit.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="win-overlay" class="overlay hidden">
+            <div class="overlay-content">
+                <span id="close-overlay" class="close-button">&times;</span>
+                <p id="result-text"></p>
+                <p id="explanation-text"></p>
+            </div>
+        </div>
+
+        <img id="event-image" alt="Titanic Newspaper Headline">
+        <div class="options-grid">
+            <button class="year-option">1910</button>
+            <button class="year-option">1912</button>
+            <button class="year-option">1914</button>
+            <button class="year-option">1916</button>
+        </div>
+        <button id="submit-button">Submit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
